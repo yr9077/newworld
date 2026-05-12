@@ -1,0 +1,23 @@
+{
+  "name": "newworld",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-agent cyber world with role-based AI API routing",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [
+    "multi-agent",
+    "cyber-world",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
